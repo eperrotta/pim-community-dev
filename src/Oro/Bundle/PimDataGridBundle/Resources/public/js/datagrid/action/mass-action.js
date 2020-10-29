@@ -72,7 +72,6 @@ function(_, messenger, __, Dialog, AbstractAction) {
 
             if ('family-grid' === this.datagrid.name) {
                 locale = this.getLocaleFromUrl('localeCode');
-                delete params['filters[label][value]'];
             }
 
             if (locale) {
